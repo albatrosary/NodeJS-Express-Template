@@ -1,0 +1,30 @@
+{
+  "name": "WebExpressSite",
+  "version": "0.2.0",
+  "author": "fumio.sagawa@ashiras.xyz",
+  "description": "A simple boilerplate for building node applications on Windows Azure (or wherever)",
+  "contributors": [
+    {
+      "name": "Fumio SAGAWA",
+      "email": "fumio.sagawa@gmail.com"
+    }
+  ],
+  "main": "./server.js",
+  "keywords": [
+    "azure",
+    "boilerplate",
+    "express"
+  ],
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "jade": "*",
+    "morgan": "^1.7.0"
+  },
+  "noAnalyze": true,
+  "license": "Apache",
+  "engines": {
+    "node": "〜5.12.0 || ~6.9.1"
+  }
+}
